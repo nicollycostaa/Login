@@ -1,0 +1,60 @@
+/*
+*******Definindo a fonte do site e a imagem de fundo*******
+*/
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: url(img/fund.jpg) no-repeat top center;
+}
+/*
+******Layout******
+*/
+#conteiner{
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: rgba(255, 255, 255, 0.589);
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#conteiner img{
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+/*
+******Formulário******
+*/
+input{
+    height: 40px;
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background: white;
+    text-align: center;
+    padding-left: 40px;
+    border: none;
+    background-repeat:no-repeat ;
+    background-position:10px;
+}
+
+input.email{
+    background-image: url(img/icone-usuario.png);
+}
+input.senha{
+    background-image: url(img/icone-cadeado.png);
+}
+
+input.submit{
+    color: aliceblue;
+    padding: 5px 20px;
+    height: 45px;
+    width: 90%;
+    background:rgb(110, 206, 158) ;
+    border: 2px solid rgb(110, 206, 131);
+    background: linear-gradient(to bottom,180, 200, 255);
+}
